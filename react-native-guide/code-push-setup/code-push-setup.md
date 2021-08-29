@@ -58,6 +58,8 @@ return [CodePush bundleURL];
 
 3. Create new key `CodePushDeploymentKey` with value `RNC_CODEPUSH_IOS_KEY`
 
+![image](./guide-3.png)
+
 ## For Android
 
 1. In your android/settings.gradle file, make the following additions at the end of the file:

@@ -86,7 +86,7 @@ STAGING_STORE_PASSWORD=app@123
 STAGING_KEY_PASSWORD=app@123
 # infomation product keystore
 PRODUCT_STORE_FILE=product.keystore
-PRODUCT_KEY_ALIAS=staging-alias
+PRODUCT_KEY_ALIAS=product-alias
 PRODUCT_STORE_PASSWORD=app@123
 PRODUCT_KEY_PASSWORD=app@123
 ```
