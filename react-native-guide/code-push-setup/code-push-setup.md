@@ -81,7 +81,8 @@ apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
 3. Add this under `android { defaultConfig {...`
 
 ```
-resValue "string", "CodePushDeploymentKey", project.env.get("CODEPUSH_ANDROID_KEY")
+        resValue "string", "CodePushDeploymentKey", env.get("CODEPUSH_ANDROID_KEY")
+        resValue 'string', "CODE_PUSH_APK_BUILD_TIME", String.format("\"%d\"", System.currentTimeMillis())
 ```
 
 ![image](./guide-5.png)

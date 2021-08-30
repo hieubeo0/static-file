@@ -125,7 +125,7 @@ apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.grad
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode Integer.valueOf(env.get("ANDROID_APP_VERSION_CODE"))
         versionName env.get("ANDROID_APP_VERSION_NAME")
-        resValue "string", "app_name", project.env.get("APP_NAME")
+        resValue "string", "app_name", env.get("APP_NAME")
         resValue "string", "build_config_package", {package-name}
     }
 ```
